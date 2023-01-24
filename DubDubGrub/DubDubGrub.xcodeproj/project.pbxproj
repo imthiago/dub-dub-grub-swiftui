@@ -15,6 +15,7 @@
 		AFDE97F7297F117A00CE57BE /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE97F6297F117A00CE57BE /* LocationMapView.swift */; };
 		AFDE97F9297F119200CE57BE /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE97F8297F119200CE57BE /* LocationListView.swift */; };
 		AFDE97FB297F11A000CE57BE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE97FA297F11A000CE57BE /* ProfileView.swift */; };
+		AFDE97FD297FFDF800CE57BE /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE97FC297FFDF800CE57BE /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AFDE97F6297F117A00CE57BE /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
 		AFDE97F8297F119200CE57BE /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		AFDE97FA297F11A000CE57BE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AFDE97FC297FFDF800CE57BE /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				AFDE97F6297F117A00CE57BE /* LocationMapView.swift */,
 				AFDE97F8297F119200CE57BE /* LocationListView.swift */,
 				AFDE97FA297F11A000CE57BE /* ProfileView.swift */,
+				AFDE97FC297FFDF800CE57BE /* LocationDetailView.swift */,
 				AFDE97E7297F0EB700CE57BE /* Assets.xcassets */,
 				AFDE97E9297F0EB700CE57BE /* Preview Content */,
 			);
@@ -154,6 +157,7 @@
 				AFDE97E4297F0EB500CE57BE /* DubDubGrubApp.swift in Sources */,
 				AFDE97F7297F117A00CE57BE /* LocationMapView.swift in Sources */,
 				AFDE97F9297F119200CE57BE /* LocationListView.swift in Sources */,
+				AFDE97FD297FFDF800CE57BE /* LocationDetailView.swift in Sources */,
 				AFDE97F5297F114200CE57BE /* AppTabView.swift in Sources */,
 				AFDE97FB297F11A000CE57BE /* ProfileView.swift in Sources */,
 				AFDE97F3297F10DF00CE57BE /* Color+Ext.swift in Sources */,
