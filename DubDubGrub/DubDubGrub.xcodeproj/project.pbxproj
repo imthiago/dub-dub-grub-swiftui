@@ -16,6 +16,11 @@
 		AFDE97F9297F119200CE57BE /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE97F8297F119200CE57BE /* LocationListView.swift */; };
 		AFDE97FB297F11A000CE57BE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE97FA297F11A000CE57BE /* ProfileView.swift */; };
 		AFDE97FD297FFDF800CE57BE /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE97FC297FFDF800CE57BE /* LocationDetailView.swift */; };
+		AFDE97FF29819B5C00CE57BE /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE97FE29819B5C00CE57BE /* LocationCell.swift */; };
+		AFDE980129819B8700CE57BE /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE980029819B8700CE57BE /* AvatarView.swift */; };
+		AFDE980329844B1E00CE57BE /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE980229844B1E00CE57BE /* CustomModifiers.swift */; };
+		AFDE980529844B4600CE57BE /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE980429844B4600CE57BE /* View+Ext.swift */; };
+		AFDE980729844C4100CE57BE /* DDGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE980629844C4100CE57BE /* DDGButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		AFDE97F8297F119200CE57BE /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		AFDE97FA297F11A000CE57BE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		AFDE97FC297FFDF800CE57BE /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		AFDE97FE29819B5C00CE57BE /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		AFDE980029819B8700CE57BE /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		AFDE980229844B1E00CE57BE /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		AFDE980429844B4600CE57BE /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		AFDE980629844C4100CE57BE /* DDGButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,14 +72,10 @@
 		AFDE97E2297F0EB500CE57BE /* DubDubGrub */ = {
 			isa = PBXGroup;
 			children = (
+				AFDE980829844D6100CE57BE /* Extensions */,
+				AFDE980929844D7900CE57BE /* Views */,
 				AFDE97F1297F0F2300CE57BE /* DubDubGrub.entitlements */,
 				AFDE97E3297F0EB500CE57BE /* DubDubGrubApp.swift */,
-				AFDE97F2297F10DF00CE57BE /* Color+Ext.swift */,
-				AFDE97F4297F114200CE57BE /* AppTabView.swift */,
-				AFDE97F6297F117A00CE57BE /* LocationMapView.swift */,
-				AFDE97F8297F119200CE57BE /* LocationListView.swift */,
-				AFDE97FA297F11A000CE57BE /* ProfileView.swift */,
-				AFDE97FC297FFDF800CE57BE /* LocationDetailView.swift */,
 				AFDE97E7297F0EB700CE57BE /* Assets.xcassets */,
 				AFDE97E9297F0EB700CE57BE /* Preview Content */,
 			);
@@ -82,6 +88,55 @@
 				AFDE97EA297F0EB700CE57BE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFDE980829844D6100CE57BE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AFDE97F2297F10DF00CE57BE /* Color+Ext.swift */,
+				AFDE980429844B4600CE57BE /* View+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AFDE980929844D7900CE57BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AFDE980229844B1E00CE57BE /* CustomModifiers.swift */,
+				AFDE980C29844DCD00CE57BE /* CustomView */,
+				AFDE980B29844DC300CE57BE /* Cells */,
+				AFDE980A29844D8000CE57BE /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AFDE980A29844D8000CE57BE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AFDE97F4297F114200CE57BE /* AppTabView.swift */,
+				AFDE97FC297FFDF800CE57BE /* LocationDetailView.swift */,
+				AFDE97F8297F119200CE57BE /* LocationListView.swift */,
+				AFDE97F6297F117A00CE57BE /* LocationMapView.swift */,
+				AFDE97FA297F11A000CE57BE /* ProfileView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AFDE980B29844DC300CE57BE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AFDE97FE29819B5C00CE57BE /* LocationCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AFDE980C29844DCD00CE57BE /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				AFDE980629844C4100CE57BE /* DDGButton.swift */,
+				AFDE980029819B8700CE57BE /* AvatarView.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,11 +210,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFDE97E4297F0EB500CE57BE /* DubDubGrubApp.swift in Sources */,
+				AFDE980329844B1E00CE57BE /* CustomModifiers.swift in Sources */,
 				AFDE97F7297F117A00CE57BE /* LocationMapView.swift in Sources */,
 				AFDE97F9297F119200CE57BE /* LocationListView.swift in Sources */,
 				AFDE97FD297FFDF800CE57BE /* LocationDetailView.swift in Sources */,
 				AFDE97F5297F114200CE57BE /* AppTabView.swift in Sources */,
 				AFDE97FB297F11A000CE57BE /* ProfileView.swift in Sources */,
+				AFDE980529844B4600CE57BE /* View+Ext.swift in Sources */,
+				AFDE97FF29819B5C00CE57BE /* LocationCell.swift in Sources */,
+				AFDE980729844C4100CE57BE /* DDGButton.swift in Sources */,
+				AFDE980129819B8700CE57BE /* AvatarView.swift in Sources */,
 				AFDE97F3297F10DF00CE57BE /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
